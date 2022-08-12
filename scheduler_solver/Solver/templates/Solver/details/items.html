@@ -1,0 +1,15 @@
+{% block body %}
+<h2>Items of {{ term }}</h2>
+    <hr>
+    {% for i in items %}
+	<div>
+		<a href="{% url 'items_detail' i.id %}">{{ i }}</a><br>
+		<a class="btn btn-outline-warning" href="{% url 'load_items' i.id %}" role="button">
+			<img src="https://img.icons8.com/ios/50/000000/edit--v1.png"/>
+		</a>
+		<hr>
+	</div>
+    {% endfor %}
+									      
+{% endblock %}
+

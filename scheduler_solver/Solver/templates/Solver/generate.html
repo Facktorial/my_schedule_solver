@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Generate schedule</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+  </head>
+
+  <py-env>
+  - paths:
+  - ../../solver/solver.py
+  </py-env>
+
+  <body>
+    <b>Your schedules</b>
+
+    <py-script>
+		from solver import solve
+		solve({{ data }})
+    </py-script>
+
+  </body>
+</html>

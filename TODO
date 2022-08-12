@@ -1,0 +1,15 @@
+## To Do
+
+- right redirect after login
+- catch and find bad links
+- cultivate Solver
+- cultivate project structure
+- Docker
+- Flake8 pipe
+- remove not needed packages
+- get rid of shity code
+- fix another solving
+    > for generate output json runs solve once again, its waste
+
+## Done
+

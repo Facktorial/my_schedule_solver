@@ -1,0 +1,7 @@
+poetry.lock
+*/__pycache__/*
+scheduler_solver/Solver/__pycache__/
+scheduler_solver/scheduler/__pycache__/
+scheduler_solver/Solver/migrations/__pycache__/
+scheduler_solver/Solver/templatetags/__pycache__/
+

@@ -1,0 +1,84 @@
+{% extends "Solver/base.html" %}
+		
+{% comment %}{% load "../../templatetags/customtags" %}{% endcomment %}
+
+{% load customtags %}
+
+{% block body %}
+	{% if user.id == student.id %}
+	<a class="btn btn-outline-warning" href="{% url 'edit_demands' item.id %}" role="button">
+		<img src="https://img.icons8.com/ios/50/000000/edit--v1.png"/>
+	</a>
+	<a class="btn btn-outline-warning" href="{% url 'valuate' item.id %}" role="button">
+		<img src="https://img.icons8.com/ios/50/000000/update--v1.png"/>
+	</a>
+	<a class="btn btn-outline-warning" href="{% url 'load_demands' item.id %}" role="button">
+		<img src="https://img.icons8.com/ios/50/000000/demand--v1.png"/>
+	</a>
+	{% endif %}
+	<a class="btn btn-outline-warning" href="{% url 'download_demands' item.id %}" role="button">
+		<img src="https://img.icons8.com/ios/50/000000/download--v1.png"/>
+	</a>
+	<a class="btn btn-outline-warning" href="{% url 'generate_schedule' item.id %}" role="button">
+		<img src="https://img.icons8.com/ios/50/000000/buy--v1.png"/>
+	</a>
+
+    <h3 class="mt-4">Demands</h3>
+	<h1>{{ item.term }}</h1>
+	<h2>{{ item.user }}</h2>
+    <hr>
+
+	{% for subject in data %}
+	<h3>{{ subject.name }}</h3>
+	<b>{{ subject.length | subject_size }}</b>
+	<br>
+	<h3>Lecture</h3>
+	<table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Teacher</th>
+        <th>Day</th>
+        <th>Time</th>
+		<th>Priority</th>
+		<th>Skipable</th>
+      </tr>
+    </thead>
+	<tbody>
+		<tr>
+			<td>{{ subject.talk.teacher }}</td>
+			<td>{{ subject.talk.day | day_of_week }}</td>
+			<td>{{ subject.talk.time | time_of_day }}</td>
+			<td>{{ subject.talk.priority }}</td>
+			<td>{{ subject.talk.skip }}</td>
+		</tr>
+	</tbody>
+	</table>
+
+	<h3>Labs</h3>
+	<table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Teacher</th>
+        <th>Day</th>
+        <th>Time</th>
+		<th>Priority</th>
+		<th>Skipable</th>
+      </tr>
+    </thead>
+	<tbody>
+		{% for lab in subject.labs %}
+		<tr>
+			<td>{{ lab.teacher }}</td>
+			<td>{{ lab.day | day_of_week }}</td>
+			<td>{{ lab.time | time_of_day }}</td>
+			<td>{{ lab.priority }}</td>
+			<td>{{ lab.skip }}</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+	</table>
+	<hr>
+    {% endfor %}
+
+{% endblock %}
+

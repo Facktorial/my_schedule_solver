@@ -1,0 +1,149 @@
+{% extends "../base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% load customtags %}
+
+{% block body %}
+
+<h1>Valuate demands (priority of items)</h1>
+You are looking at one form, one submit button is at top of page, other one at the bottom, submit submits all fields.
+
+<div class="col-8 container d-flex align-items-center justify-content-center mt-3">
+	<form method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		<button type="submit"  class="col-3 container d-flex justify-content-center align-items-center btn btn-primary" value='Valuate pririties'>Valuate</button>
+		{% for subject in data %}
+		<h3>{{ subject.name }}</h3>
+		<b>{{ subject.length | subject_size }}</b>
+		<br>
+		<h3>Lecture</h3>
+		<table class="table table-striped table-hover">
+    	<thead>
+    	  <tr>
+    	    <th>Teacher</th>
+    	    <th>Day</th>
+    	    <th>Time</th>
+			<th>Priority</th>
+			<th>New Priority</th>
+			<th>Skipable</th>
+			<th>New Skipable</th>
+    	  </tr>
+    	</thead>
+		<tbody>
+			<tr>
+				<td>{{ subject.talk.teacher }}</td>
+				<td>{{ subject.talk.day | day_of_week }}</td>
+				<td>{{ subject.talk.time | time_of_day }}</td>
+				<td>{{ subject.talk.priority }}</td>
+				<td>
+					<input
+						type="number"
+						id="priority_lec_{{ forloop.counter0 }}"
+						name="priority_lec_{{ forloop.counter0 }}"
+						min="0" max="10"
+						value="{{ courses | indexer:forloop.counter0 }}"
+					>
+				</td>
+				<td>{{ subject.talk.skip }}</td>
+				<td>
+					<label for="skip_lec_{{ forloop.counter0  }}">True</label>
+					<input
+						type="radio"
+						id="skip_lec_{{ forloop.counter0  }}"
+						name="skip_lec_{{ forloop.counter0  }}"
+						value="True"
+						{% with condition=courses_skip|indexer:forloop.counter0|indexer:0 %}
+						{% if condition %}
+						checked="checked"
+						{% endif %}
+						{% endwith %}
+					>
+					<br>
+					<label for="skip_lec_{{ forloop.counter0  }}">False</label>
+					<input
+						type="radio"
+						id="skip_lec_{{ forloop.counter0  }}"
+						name="skip_lec_{{ forloop.counter0  }}"
+						value="False"
+						{% with condition=courses_skip|indexer:forloop.counter0|indexer:1 %}
+						{% if condition %}
+						checked="checked"
+						{% endif %}
+						{% endwith %}
+					>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+
+		<h3>Labs</h3>
+		<table class="table table-striped table-hover">
+    	<thead>
+    	  <tr>
+    	    <th>Teacher</th>
+    	    <th>Day</th>
+    	    <th>Time</th>
+			<th>Priority</th>
+			<th>New Priority</th>
+			<th>Skipable</th>
+			<th>New Skipable</th>
+    	  </tr>
+    	</thead>
+		<tbody>
+			{% for lab in subject.labs %}
+			<tr>
+				<td>{{ lab.teacher }}</td>
+				<td>{{ lab.day | day_of_week }}</td>
+				<td>{{ lab.time | time_of_day }}</td>
+				<td>{{ lab.priority }}</td>
+				<td>
+					<input
+						type="number"
+						id="priority_lab_{{ forloop.parentloop.counter0 }}_{{ forloop.counter0 }}"
+						name="priority_lab_{{ forloop.parentloop.counter0 }}_{{ forloop.counter0 }}"
+						min="0" max="10"
+						value="{{ labs | indexer:forloop.parentloop.counter0 | indexer:forloop.counter0 }}"
+					>
+				</td>
+				<td>{{ lab.skip }}</td>
+				<td>
+					<label for="skip_lab_{{ forloop.parentloop.counter0 }}_{{ forloop.counter0  }}">True</label>
+					<input
+						type="radio"
+						id="skip_lab_{{ forloop.parentloop.counter0 }}_{{ forloop.counter0  }}"
+						name="skip_lab_{{ forloop.parentloop.counter0 }}_{{ forloop.counter0  }}"
+						value="True"
+						{% with condition=labs_skip|indexer:forloop.parentloop.counter0|indexer:forloop.counter0|indexer:0 %}
+						{% if condition %}
+						checked="checked"
+						{% endif %}
+						{% endwith %}
+					>
+					<br>
+					<label for="skip_lab_{{ forloop.parentloop.counter0 }}_{{ forloop.counter0  }}">False</label>
+					<input
+						type="radio"
+						id="skip_lab_{{ forloop.parentloop.counter0 }}_{{ forloop.counter0  }}"
+						name="skip_lab_{{ forloop.parentloop.counter0 }}_{{ forloop.counter0  }}"
+						value="False"
+						{% with condition=labs_skip|indexer:forloop.parentloop.counter0|indexer:forloop.counter0|indexer:1 %}
+						{% if condition %}
+						checked="checked"
+						{% endif %}
+						{% endwith %}
+					>
+				</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+		</table>
+		<hr>
+    	{% endfor %}
+
+		<button type="submit"  class="col-3 container d-flex justify-content-center align-items-center btn btn-primary" value='Valuate pririties'>Valuate</button>
+	</form>
+</div>
+
+{% endblock %}
+

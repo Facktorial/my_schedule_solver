@@ -1,0 +1,19 @@
+{% extends "../base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Register student{% endblock %}
+
+{% block body %}
+
+<div class="col-6 container d-flex align-items-center justify-content-center mt-3">
+	<form action="{{ button_text }}" method="POST">
+    {% csrf_token %}
+    {{ form | crispy }}
+    {{ form_st | crispy }}
+	<button type="submit"  class="col-3 container d-flex align-items-center btn btn-primary" value='{{ button_text }}'>{{ button_text }}</button>
+</form>
+</div>
+
+{% endblock %}
+

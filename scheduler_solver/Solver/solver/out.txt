@@ -1,0 +1,2847 @@
+10
+45
+=====
+Item(teacher='Fabian', day=2, time=14.25, priority=7, skip=False, name='SKJ', length=2, lab=True)
+Item(teacher='Miklošíková', day=1, time=14.25, priority=7, skip=False, name='PSYCH', length=2, lab=True)
+Item(teacher='Miklosikova', day=1, time=16.0, priority=7, skip=False, name='PSYCH', length=2, lab=True)
+Item(teacher='Baca', day=3, time=10.75, priority=6, skip=False, name='DS2', length=2, lab=True)
+Item(teacher='Sigut', day=3, time=16.0, priority=6, skip=False, name='SKJ', length=2, lab=True)
+Item(teacher='Nemec', day=1, time=9.0, priority=6, skip=False, name='URO', length=2, lab=True)
+Item(teacher='Nemec', day=1, time=10.75, priority=6, skip=False, name='URO', length=2, lab=True)
+Item(teacher='Nemec', day=1, time=12.5, priority=6, skip=False, name='URO', length=2, lab=True)
+Item(teacher='Miklosikova', day=4, time=12.5, priority=6, skip=False, name='PSYCH', length=2, lab=True)
+Item(teacher='Matochova', day=1, time=16.0, priority=6, skip=False, name='PSYCH', length=2, lab=True)
+Item(teacher='Zarlik', day=1, time=9.0, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Illík', day=1, time=12.5, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Pretsch', day=1, time=14.25, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Pretsch', day=2, time=14.25, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Landry', day=4, time=12.5, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Manakova', day=3, time=12.5, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Trawinska', day=3, time=12.5, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Smutna', day=3, time=12.5, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Manakova', day=3, time=14.25, priority=5, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Merta', day=4, time=16.0, priority=5, skip=False, name='NLA', length=2, lab=False)
+Item(teacher='Merta', day=4, time=17.75, priority=5, skip=False, name='NLA', length=2, lab=True)
+Item(teacher='Lukas', day=3, time=12.5, priority=5, skip=False, name='DS2', length=2, lab=True)
+Item(teacher='Lukas', day=4, time=12.5, priority=5, skip=False, name='DS2', length=2, lab=True)
+Item(teacher='Lukas', day=3, time=14.25, priority=5, skip=False, name='DS2', length=2, lab=True)
+Item(teacher='Lukas', day=4, time=16.0, priority=5, skip=False, name='DS2', length=2, lab=True)
+Item(teacher='Chovanec', day=3, time=12.5, priority=5, skip=False, name='DS2', length=2, lab=True)
+Item(teacher='Chovanec', day=4, time=12.5, priority=5, skip=False, name='DS2', length=2, lab=True)
+Item(teacher='Chovanec', day=4, time=16.0, priority=5, skip=False, name='DS2', length=2, lab=True)
+Item(teacher='Halman', day=2, time=14.25, priority=5, skip=False, name='SKJ', length=2, lab=True)
+Item(teacher='Halman', day=2, time=16.0, priority=5, skip=False, name='SKJ', length=2, lab=True)
+Item(teacher='Sigut', day=3, time=17.75, priority=5, skip=False, name='SKJ', length=2, lab=True)
+Item(teacher='Holusa', day=4, time=16.0, priority=5, skip=False, name='SKJ', length=2, lab=True)
+Item(teacher='Holusa', day=4, time=17.75, priority=5, skip=False, name='SKJ', length=2, lab=True)
+Item(teacher='Sojka', day=4, time=14.25, priority=5, skip=True, name='URO', length=2, lab=False)
+Item(teacher='Simkanic', day=2, time=14.25, priority=5, skip=False, name='URO', length=2, lab=True)
+Item(teacher='Simkanic', day=2, time=16.0, priority=5, skip=False, name='URO', length=2, lab=True)
+Item(teacher='Simkanic', day=2, time=17.75, priority=5, skip=False, name='URO', length=2, lab=True)
+Item(teacher='Matochova', day=3, time=14.25, priority=5, skip=False, name='PSYCH', length=2, lab=True)
+Item(teacher='Matochova', day=3, time=16.0, priority=5, skip=False, name='PSYCH', length=2, lab=True)
+Item(teacher='Palenickova', day=3, time=16.0, priority=5, skip=False, name='PSYCH', length=2, lab=True)
+Item(teacher='Palenickova', day=3, time=9.0, priority=5, skip=False, name='PSYCH', length=2, lab=True)
+Item(teacher='Matyaskova', day=3, time=7.25, priority=4, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Matyaskova', day=4, time=7.25, priority=4, skip=False, name='ENG', length=2, lab=True)
+Item(teacher='Kratky', day=3, time=9.0, priority=4, skip=False, name='DS2', length=2, lab=False)
+Item(teacher='Gaura', day=4, time=9.0, priority=3, skip=False, name='SKJ', length=2, lab=False)
+=====
+NLA
+DS2
+SKJ
+URO
+=====
+ENG
+NLA
+DS2
+SKJ
+URO
+PSYCH
+Base forloop
+solution=['Merta', 'Kratky', 'Gaura', 'Merta']
+perm_count:  2
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian']
+perm_count:  3
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková']
+perm_count:  4
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca']
+perm_count:  5
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec']
+perm_count:  6
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Illík']
+perm_count:  7
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Landry']
+perm_count:  8
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Manakova']
+perm_count:  9
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Trawinska']
+perm_count:  10
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Smutna']
+perm_count:  11
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Manakova']
+perm_count:  12
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Matyaskova']
+perm_count:  13
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Matyaskova']
+perm_count:  14
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec']
+perm_count:  15
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Zarlik']
+perm_count:  16
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Illík']
+perm_count:  17
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Landry']
+perm_count:  18
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Manakova']
+perm_count:  19
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Trawinska']
+perm_count:  20
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Smutna']
+perm_count:  21
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Manakova']
+perm_count:  22
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Matyaskova']
+perm_count:  23
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Matyaskova']
+perm_count:  24
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec']
+perm_count:  25
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Zarlik']
+perm_count:  26
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Landry']
+perm_count:  27
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Manakova']
+perm_count:  28
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Trawinska']
+perm_count:  29
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Smutna']
+perm_count:  30
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Manakova']
+perm_count:  31
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Matyaskova']
+perm_count:  32
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Nemec', 'Matyaskova']
+perm_count:  33
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Zarlik']
+perm_count:  34
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Zarlik', 'Nemec']
+perm_count:  35
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Zarlik', 'Nemec']
+perm_count:  36
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Zarlik', 'Simkanic']
+perm_count:  37
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Zarlik', 'Simkanic']
+perm_count:  38
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Illík']
+perm_count:  39
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Illík', 'Nemec']
+perm_count:  40
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Illík', 'Nemec']
+perm_count:  41
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Illík', 'Simkanic']
+perm_count:  42
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Illík', 'Simkanic']
+perm_count:  43
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Landry']
+perm_count:  44
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Landry', 'Nemec']
+perm_count:  45
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Landry', 'Nemec']
+perm_count:  46
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Landry', 'Nemec']
+perm_count:  47
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Landry', 'Simkanic']
+perm_count:  48
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Landry', 'Simkanic']
+perm_count:  49
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova']
+perm_count:  50
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Nemec']
+perm_count:  51
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Nemec']
+perm_count:  52
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Nemec']
+perm_count:  53
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Simkanic']
+perm_count:  54
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Simkanic']
+perm_count:  55
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Trawinska']
+perm_count:  56
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Trawinska', 'Nemec']
+perm_count:  57
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Trawinska', 'Nemec']
+perm_count:  58
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Trawinska', 'Nemec']
+perm_count:  59
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Trawinska', 'Simkanic']
+perm_count:  60
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Trawinska', 'Simkanic']
+perm_count:  61
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Smutna']
+perm_count:  62
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Smutna', 'Nemec']
+perm_count:  63
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Smutna', 'Nemec']
+perm_count:  64
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Smutna', 'Nemec']
+perm_count:  65
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Smutna', 'Simkanic']
+perm_count:  66
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Smutna', 'Simkanic']
+perm_count:  67
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova']
+perm_count:  68
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Nemec']
+perm_count:  69
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Nemec']
+perm_count:  70
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Nemec']
+perm_count:  71
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Simkanic']
+perm_count:  72
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Manakova', 'Simkanic']
+perm_count:  73
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic']
+perm_count:  74
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Zarlik']
+perm_count:  75
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Illík']
+perm_count:  76
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Landry']
+perm_count:  77
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Manakova']
+perm_count:  78
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Trawinska']
+perm_count:  79
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Smutna']
+perm_count:  80
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Manakova']
+perm_count:  81
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Matyaskova']
+perm_count:  82
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Matyaskova']
+perm_count:  83
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic']
+perm_count:  84
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Zarlik']
+perm_count:  85
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Illík']
+perm_count:  86
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Landry']
+perm_count:  87
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Manakova']
+perm_count:  88
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Trawinska']
+perm_count:  89
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Smutna']
+perm_count:  90
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Manakova']
+perm_count:  91
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Matyaskova']
+perm_count:  92
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Simkanic', 'Matyaskova']
+perm_count:  93
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova']
+perm_count:  94
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Nemec']
+perm_count:  95
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Nemec']
+perm_count:  96
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Nemec']
+perm_count:  97
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Simkanic']
+perm_count:  98
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Simkanic']
+perm_count:  99
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova']
+perm_count:  100
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Nemec']
+perm_count:  101
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Nemec']
+perm_count:  102
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Nemec']
+perm_count:  103
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Simkanic']
+perm_count:  104
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Baca', 'Matyaskova', 'Simkanic']
+perm_count:  105
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec']
+perm_count:  106
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca']
+perm_count:  107
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Illík']
+perm_count:  108
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Landry']
+perm_count:  109
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Manakova']
+perm_count:  110
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Trawinska']
+perm_count:  111
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Smutna']
+perm_count:  112
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Manakova']
+perm_count:  113
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Matyaskova']
+perm_count:  114
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Matyaskova']
+perm_count:  115
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík']
+perm_count:  116
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Baca']
+perm_count:  117
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Lukas']
+perm_count:  118
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Lukas']
+perm_count:  119
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Lukas']
+perm_count:  120
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Chovanec']
+perm_count:  121
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Chovanec']
+perm_count:  122
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry']
+perm_count:  123
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Baca']
+perm_count:  124
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Lukas']
+perm_count:  125
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Lukas']
+perm_count:  126
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Chovanec']
+perm_count:  127
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova']
+perm_count:  128
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Baca']
+perm_count:  129
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  130
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  131
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  132
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska']
+perm_count:  133
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Baca']
+perm_count:  134
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Lukas']
+perm_count:  135
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Lukas']
+perm_count:  136
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Chovanec']
+perm_count:  137
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna']
+perm_count:  138
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Baca']
+perm_count:  139
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Lukas']
+perm_count:  140
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Lukas']
+perm_count:  141
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Chovanec']
+perm_count:  142
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova']
+perm_count:  143
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Baca']
+perm_count:  144
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  145
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  146
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  147
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  148
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  149
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Illík']
+perm_count:  150
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Landry']
+perm_count:  151
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  152
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  153
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  154
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  155
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Illík']
+perm_count:  156
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  157
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Trawinska']
+perm_count:  158
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Smutna']
+perm_count:  159
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  160
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  161
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  162
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  163
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Illík']
+perm_count:  164
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Landry']
+perm_count:  165
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  166
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Trawinska']
+perm_count:  167
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Smutna']
+perm_count:  168
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  169
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  170
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec']
+perm_count:  171
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Illík']
+perm_count:  172
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Landry']
+perm_count:  173
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  174
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  175
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  176
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec']
+perm_count:  177
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Illík']
+perm_count:  178
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  179
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Trawinska']
+perm_count:  180
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Smutna']
+perm_count:  181
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  182
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  183
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  184
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova']
+perm_count:  185
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Baca']
+perm_count:  186
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  187
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  188
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  189
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  190
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  191
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova']
+perm_count:  192
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Baca']
+perm_count:  193
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  194
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  195
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  196
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  197
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  198
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec']
+perm_count:  199
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca']
+perm_count:  200
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Zarlik']
+perm_count:  201
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Illík']
+perm_count:  202
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Landry']
+perm_count:  203
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Manakova']
+perm_count:  204
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Trawinska']
+perm_count:  205
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Smutna']
+perm_count:  206
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Manakova']
+perm_count:  207
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Matyaskova']
+perm_count:  208
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Matyaskova']
+perm_count:  209
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik']
+perm_count:  210
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Baca']
+perm_count:  211
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Lukas']
+perm_count:  212
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Lukas']
+perm_count:  213
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Lukas']
+perm_count:  214
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Chovanec']
+perm_count:  215
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Chovanec']
+perm_count:  216
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík']
+perm_count:  217
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Baca']
+perm_count:  218
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Lukas']
+perm_count:  219
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Lukas']
+perm_count:  220
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Lukas']
+perm_count:  221
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Chovanec']
+perm_count:  222
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Illík', 'Chovanec']
+perm_count:  223
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry']
+perm_count:  224
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Baca']
+perm_count:  225
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Lukas']
+perm_count:  226
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Lukas']
+perm_count:  227
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Chovanec']
+perm_count:  228
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova']
+perm_count:  229
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Baca']
+perm_count:  230
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  231
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  232
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  233
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska']
+perm_count:  234
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Baca']
+perm_count:  235
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Lukas']
+perm_count:  236
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Lukas']
+perm_count:  237
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Chovanec']
+perm_count:  238
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna']
+perm_count:  239
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Baca']
+perm_count:  240
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Lukas']
+perm_count:  241
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Lukas']
+perm_count:  242
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Chovanec']
+perm_count:  243
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova']
+perm_count:  244
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Baca']
+perm_count:  245
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  246
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  247
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  248
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  249
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  250
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Zarlik']
+perm_count:  251
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Illík']
+perm_count:  252
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Landry']
+perm_count:  253
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  254
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  255
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  256
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  257
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Zarlik']
+perm_count:  258
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Illík']
+perm_count:  259
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  260
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Trawinska']
+perm_count:  261
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Smutna']
+perm_count:  262
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  263
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  264
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  265
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  266
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Zarlik']
+perm_count:  267
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Illík']
+perm_count:  268
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Landry']
+perm_count:  269
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  270
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Trawinska']
+perm_count:  271
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Smutna']
+perm_count:  272
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  273
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  274
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec']
+perm_count:  275
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Zarlik']
+perm_count:  276
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Illík']
+perm_count:  277
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Landry']
+perm_count:  278
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  279
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  280
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  281
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec']
+perm_count:  282
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Zarlik']
+perm_count:  283
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Illík']
+perm_count:  284
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  285
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Trawinska']
+perm_count:  286
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Smutna']
+perm_count:  287
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  288
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  289
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  290
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova']
+perm_count:  291
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Baca']
+perm_count:  292
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  293
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  294
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  295
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  296
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  297
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova']
+perm_count:  298
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Baca']
+perm_count:  299
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  300
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  301
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  302
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  303
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  304
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec']
+perm_count:  305
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca']
+perm_count:  306
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Zarlik']
+perm_count:  307
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Landry']
+perm_count:  308
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Manakova']
+perm_count:  309
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Trawinska']
+perm_count:  310
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Smutna']
+perm_count:  311
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Manakova']
+perm_count:  312
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Matyaskova']
+perm_count:  313
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Baca', 'Matyaskova']
+perm_count:  314
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik']
+perm_count:  315
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Baca']
+perm_count:  316
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Lukas']
+perm_count:  317
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Lukas']
+perm_count:  318
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Lukas']
+perm_count:  319
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Chovanec']
+perm_count:  320
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Zarlik', 'Chovanec']
+perm_count:  321
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry']
+perm_count:  322
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Baca']
+perm_count:  323
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Lukas']
+perm_count:  324
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Lukas']
+perm_count:  325
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Landry', 'Chovanec']
+perm_count:  326
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova']
+perm_count:  327
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Baca']
+perm_count:  328
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  329
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  330
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  331
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska']
+perm_count:  332
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Baca']
+perm_count:  333
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Lukas']
+perm_count:  334
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Lukas']
+perm_count:  335
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Trawinska', 'Chovanec']
+perm_count:  336
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna']
+perm_count:  337
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Baca']
+perm_count:  338
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Lukas']
+perm_count:  339
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Lukas']
+perm_count:  340
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Smutna', 'Chovanec']
+perm_count:  341
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova']
+perm_count:  342
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Baca']
+perm_count:  343
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  344
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Lukas']
+perm_count:  345
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  346
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Manakova', 'Chovanec']
+perm_count:  347
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  348
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Zarlik']
+perm_count:  349
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Landry']
+perm_count:  350
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  351
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  352
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  353
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  354
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Zarlik']
+perm_count:  355
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  356
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Trawinska']
+perm_count:  357
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Smutna']
+perm_count:  358
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  359
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  360
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  361
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas']
+perm_count:  362
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Zarlik']
+perm_count:  363
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Landry']
+perm_count:  364
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Manakova']
+perm_count:  365
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Trawinska']
+perm_count:  366
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Smutna']
+perm_count:  367
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  368
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Lukas', 'Matyaskova']
+perm_count:  369
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec']
+perm_count:  370
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Zarlik']
+perm_count:  371
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Landry']
+perm_count:  372
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  373
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  374
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  375
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec']
+perm_count:  376
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Zarlik']
+perm_count:  377
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  378
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Trawinska']
+perm_count:  379
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Smutna']
+perm_count:  380
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Manakova']
+perm_count:  381
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  382
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Chovanec', 'Matyaskova']
+perm_count:  383
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova']
+perm_count:  384
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Baca']
+perm_count:  385
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  386
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  387
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  388
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  389
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  390
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova']
+perm_count:  391
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Baca']
+perm_count:  392
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  393
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  394
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Lukas']
+perm_count:  395
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  396
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Nemec', 'Matyaskova', 'Chovanec']
+perm_count:  397
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik']
+perm_count:  398
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Baca']
+perm_count:  399
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Baca', 'Nemec']
+perm_count:  400
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Baca', 'Nemec']
+perm_count:  401
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Baca', 'Simkanic']
+perm_count:  402
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Baca', 'Simkanic']
+perm_count:  403
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec']
+perm_count:  404
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Baca']
+perm_count:  405
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Lukas']
+perm_count:  406
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Lukas']
+perm_count:  407
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Lukas']
+perm_count:  408
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Chovanec']
+perm_count:  409
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Chovanec']
+perm_count:  410
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec']
+perm_count:  411
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Baca']
+perm_count:  412
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Lukas']
+perm_count:  413
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Lukas']
+perm_count:  414
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Lukas']
+perm_count:  415
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Chovanec']
+perm_count:  416
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Nemec', 'Chovanec']
+perm_count:  417
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas']
+perm_count:  418
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Nemec']
+perm_count:  419
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Nemec']
+perm_count:  420
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Simkanic']
+perm_count:  421
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Simkanic']
+perm_count:  422
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas']
+perm_count:  423
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Nemec']
+perm_count:  424
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Nemec']
+perm_count:  425
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Simkanic']
+perm_count:  426
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Simkanic']
+perm_count:  427
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas']
+perm_count:  428
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Nemec']
+perm_count:  429
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Nemec']
+perm_count:  430
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Simkanic']
+perm_count:  431
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Lukas', 'Simkanic']
+perm_count:  432
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec']
+perm_count:  433
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec', 'Nemec']
+perm_count:  434
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec', 'Nemec']
+perm_count:  435
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec', 'Simkanic']
+perm_count:  436
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec', 'Simkanic']
+perm_count:  437
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec']
+perm_count:  438
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec', 'Nemec']
+perm_count:  439
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec', 'Nemec']
+perm_count:  440
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec', 'Simkanic']
+perm_count:  441
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Chovanec', 'Simkanic']
+perm_count:  442
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic']
+perm_count:  443
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Baca']
+perm_count:  444
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Lukas']
+perm_count:  445
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Lukas']
+perm_count:  446
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Lukas']
+perm_count:  447
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Chovanec']
+perm_count:  448
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Chovanec']
+perm_count:  449
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic']
+perm_count:  450
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Baca']
+perm_count:  451
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Lukas']
+perm_count:  452
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Lukas']
+perm_count:  453
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Lukas']
+perm_count:  454
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Chovanec']
+perm_count:  455
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Zarlik', 'Simkanic', 'Chovanec']
+perm_count:  456
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík']
+perm_count:  457
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Baca']
+perm_count:  458
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Baca', 'Nemec']
+perm_count:  459
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Baca', 'Nemec']
+perm_count:  460
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Baca', 'Simkanic']
+perm_count:  461
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Baca', 'Simkanic']
+perm_count:  462
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec']
+perm_count:  463
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Baca']
+perm_count:  464
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Lukas']
+perm_count:  465
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Lukas']
+perm_count:  466
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Lukas']
+perm_count:  467
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Chovanec']
+perm_count:  468
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Chovanec']
+perm_count:  469
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec']
+perm_count:  470
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Baca']
+perm_count:  471
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Lukas']
+perm_count:  472
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Lukas']
+perm_count:  473
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Lukas']
+perm_count:  474
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Chovanec']
+perm_count:  475
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Nemec', 'Chovanec']
+perm_count:  476
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas']
+perm_count:  477
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Nemec']
+perm_count:  478
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Nemec']
+perm_count:  479
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Simkanic']
+perm_count:  480
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Simkanic']
+perm_count:  481
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas']
+perm_count:  482
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Nemec']
+perm_count:  483
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Nemec']
+perm_count:  484
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Simkanic']
+perm_count:  485
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Simkanic']
+perm_count:  486
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas']
+perm_count:  487
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Nemec']
+perm_count:  488
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Nemec']
+perm_count:  489
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Simkanic']
+perm_count:  490
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Lukas', 'Simkanic']
+perm_count:  491
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec']
+perm_count:  492
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec', 'Nemec']
+perm_count:  493
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec', 'Nemec']
+perm_count:  494
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec', 'Simkanic']
+perm_count:  495
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec', 'Simkanic']
+perm_count:  496
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec']
+perm_count:  497
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec', 'Nemec']
+perm_count:  498
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec', 'Nemec']
+perm_count:  499
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec', 'Simkanic']
+perm_count:  500
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Chovanec', 'Simkanic']
+perm_count:  501
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic']
+perm_count:  502
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Baca']
+perm_count:  503
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Lukas']
+perm_count:  504
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Lukas']
+perm_count:  505
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Lukas']
+perm_count:  506
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Chovanec']
+perm_count:  507
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Chovanec']
+perm_count:  508
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic']
+perm_count:  509
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Baca']
+perm_count:  510
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Lukas']
+perm_count:  511
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Lukas']
+perm_count:  512
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Lukas']
+perm_count:  513
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Chovanec']
+perm_count:  514
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Illík', 'Simkanic', 'Chovanec']
+perm_count:  515
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry']
+perm_count:  516
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Baca']
+perm_count:  517
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Baca', 'Nemec']
+perm_count:  518
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Baca', 'Nemec']
+perm_count:  519
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Baca', 'Nemec']
+perm_count:  520
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Baca', 'Simkanic']
+perm_count:  521
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Baca', 'Simkanic']
+perm_count:  522
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec']
+perm_count:  523
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Baca']
+perm_count:  524
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Lukas']
+perm_count:  525
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Lukas']
+perm_count:  526
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Chovanec']
+perm_count:  527
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec']
+perm_count:  528
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Baca']
+perm_count:  529
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Lukas']
+perm_count:  530
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Lukas']
+perm_count:  531
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Chovanec']
+perm_count:  532
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec']
+perm_count:  533
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Baca']
+perm_count:  534
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Lukas']
+perm_count:  535
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Lukas']
+perm_count:  536
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Nemec', 'Chovanec']
+perm_count:  537
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas']
+perm_count:  538
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Nemec']
+perm_count:  539
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Nemec']
+perm_count:  540
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Nemec']
+perm_count:  541
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Simkanic']
+perm_count:  542
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Simkanic']
+perm_count:  543
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas']
+perm_count:  544
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Nemec']
+perm_count:  545
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Nemec']
+perm_count:  546
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Nemec']
+perm_count:  547
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Simkanic']
+perm_count:  548
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Lukas', 'Simkanic']
+perm_count:  549
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Chovanec']
+perm_count:  550
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Chovanec', 'Nemec']
+perm_count:  551
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Chovanec', 'Nemec']
+perm_count:  552
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Chovanec', 'Nemec']
+perm_count:  553
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Chovanec', 'Simkanic']
+perm_count:  554
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Chovanec', 'Simkanic']
+perm_count:  555
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic']
+perm_count:  556
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic', 'Baca']
+perm_count:  557
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic', 'Lukas']
+perm_count:  558
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic', 'Lukas']
+perm_count:  559
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic', 'Chovanec']
+perm_count:  560
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic']
+perm_count:  561
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic', 'Baca']
+perm_count:  562
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic', 'Lukas']
+perm_count:  563
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic', 'Lukas']
+perm_count:  564
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Landry', 'Simkanic', 'Chovanec']
+perm_count:  565
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova']
+perm_count:  566
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca']
+perm_count:  567
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Nemec']
+perm_count:  568
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Nemec']
+perm_count:  569
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Nemec']
+perm_count:  570
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Simkanic']
+perm_count:  571
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Simkanic']
+perm_count:  572
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec']
+perm_count:  573
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Baca']
+perm_count:  574
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  575
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  576
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  577
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec']
+perm_count:  578
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Baca']
+perm_count:  579
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  580
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  581
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  582
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec']
+perm_count:  583
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Baca']
+perm_count:  584
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  585
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  586
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  587
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas']
+perm_count:  588
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  589
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  590
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  591
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Simkanic']
+perm_count:  592
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Simkanic']
+perm_count:  593
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas']
+perm_count:  594
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  595
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  596
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  597
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Simkanic']
+perm_count:  598
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Simkanic']
+perm_count:  599
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec']
+perm_count:  600
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  601
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  602
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  603
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Simkanic']
+perm_count:  604
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Simkanic']
+perm_count:  605
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic']
+perm_count:  606
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Baca']
+perm_count:  607
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Lukas']
+perm_count:  608
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Lukas']
+perm_count:  609
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Chovanec']
+perm_count:  610
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic']
+perm_count:  611
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Baca']
+perm_count:  612
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Lukas']
+perm_count:  613
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Lukas']
+perm_count:  614
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Chovanec']
+perm_count:  615
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska']
+perm_count:  616
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Baca']
+perm_count:  617
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Baca', 'Nemec']
+perm_count:  618
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Baca', 'Nemec']
+perm_count:  619
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Baca', 'Nemec']
+perm_count:  620
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Baca', 'Simkanic']
+perm_count:  621
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Baca', 'Simkanic']
+perm_count:  622
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec']
+perm_count:  623
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Baca']
+perm_count:  624
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Lukas']
+perm_count:  625
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Lukas']
+perm_count:  626
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Chovanec']
+perm_count:  627
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec']
+perm_count:  628
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Baca']
+perm_count:  629
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Lukas']
+perm_count:  630
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Lukas']
+perm_count:  631
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Chovanec']
+perm_count:  632
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec']
+perm_count:  633
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Baca']
+perm_count:  634
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Lukas']
+perm_count:  635
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Lukas']
+perm_count:  636
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Nemec', 'Chovanec']
+perm_count:  637
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas']
+perm_count:  638
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Nemec']
+perm_count:  639
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Nemec']
+perm_count:  640
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Nemec']
+perm_count:  641
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Simkanic']
+perm_count:  642
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Simkanic']
+perm_count:  643
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas']
+perm_count:  644
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Nemec']
+perm_count:  645
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Nemec']
+perm_count:  646
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Nemec']
+perm_count:  647
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Simkanic']
+perm_count:  648
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Lukas', 'Simkanic']
+perm_count:  649
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Chovanec']
+perm_count:  650
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Chovanec', 'Nemec']
+perm_count:  651
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Chovanec', 'Nemec']
+perm_count:  652
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Chovanec', 'Nemec']
+perm_count:  653
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Chovanec', 'Simkanic']
+perm_count:  654
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Chovanec', 'Simkanic']
+perm_count:  655
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic']
+perm_count:  656
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic', 'Baca']
+perm_count:  657
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic', 'Lukas']
+perm_count:  658
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic', 'Lukas']
+perm_count:  659
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic', 'Chovanec']
+perm_count:  660
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic']
+perm_count:  661
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic', 'Baca']
+perm_count:  662
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic', 'Lukas']
+perm_count:  663
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic', 'Lukas']
+perm_count:  664
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Trawinska', 'Simkanic', 'Chovanec']
+perm_count:  665
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna']
+perm_count:  666
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Baca']
+perm_count:  667
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Baca', 'Nemec']
+perm_count:  668
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Baca', 'Nemec']
+perm_count:  669
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Baca', 'Nemec']
+perm_count:  670
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Baca', 'Simkanic']
+perm_count:  671
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Baca', 'Simkanic']
+perm_count:  672
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec']
+perm_count:  673
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Baca']
+perm_count:  674
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Lukas']
+perm_count:  675
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Lukas']
+perm_count:  676
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Chovanec']
+perm_count:  677
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec']
+perm_count:  678
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Baca']
+perm_count:  679
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Lukas']
+perm_count:  680
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Lukas']
+perm_count:  681
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Chovanec']
+perm_count:  682
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec']
+perm_count:  683
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Baca']
+perm_count:  684
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Lukas']
+perm_count:  685
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Lukas']
+perm_count:  686
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Nemec', 'Chovanec']
+perm_count:  687
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas']
+perm_count:  688
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Nemec']
+perm_count:  689
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Nemec']
+perm_count:  690
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Nemec']
+perm_count:  691
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Simkanic']
+perm_count:  692
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Simkanic']
+perm_count:  693
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas']
+perm_count:  694
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Nemec']
+perm_count:  695
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Nemec']
+perm_count:  696
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Nemec']
+perm_count:  697
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Simkanic']
+perm_count:  698
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Lukas', 'Simkanic']
+perm_count:  699
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Chovanec']
+perm_count:  700
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Chovanec', 'Nemec']
+perm_count:  701
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Chovanec', 'Nemec']
+perm_count:  702
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Chovanec', 'Nemec']
+perm_count:  703
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Chovanec', 'Simkanic']
+perm_count:  704
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Chovanec', 'Simkanic']
+perm_count:  705
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic']
+perm_count:  706
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic', 'Baca']
+perm_count:  707
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic', 'Lukas']
+perm_count:  708
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic', 'Lukas']
+perm_count:  709
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic', 'Chovanec']
+perm_count:  710
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic']
+perm_count:  711
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic', 'Baca']
+perm_count:  712
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic', 'Lukas']
+perm_count:  713
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic', 'Lukas']
+perm_count:  714
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Smutna', 'Simkanic', 'Chovanec']
+perm_count:  715
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova']
+perm_count:  716
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca']
+perm_count:  717
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Nemec']
+perm_count:  718
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Nemec']
+perm_count:  719
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Nemec']
+perm_count:  720
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Simkanic']
+perm_count:  721
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Baca', 'Simkanic']
+perm_count:  722
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec']
+perm_count:  723
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Baca']
+perm_count:  724
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  725
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  726
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  727
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  728
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec']
+perm_count:  729
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Baca']
+perm_count:  730
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  731
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  732
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  733
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  734
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec']
+perm_count:  735
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Baca']
+perm_count:  736
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  737
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Lukas']
+perm_count:  738
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  739
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Nemec', 'Chovanec']
+perm_count:  740
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas']
+perm_count:  741
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  742
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  743
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  744
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Simkanic']
+perm_count:  745
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Simkanic']
+perm_count:  746
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas']
+perm_count:  747
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  748
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  749
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Nemec']
+perm_count:  750
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Simkanic']
+perm_count:  751
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Lukas', 'Simkanic']
+perm_count:  752
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec']
+perm_count:  753
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  754
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  755
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  756
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Simkanic']
+perm_count:  757
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Simkanic']
+perm_count:  758
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec']
+perm_count:  759
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  760
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  761
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Nemec']
+perm_count:  762
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Simkanic']
+perm_count:  763
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Chovanec', 'Simkanic']
+perm_count:  764
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic']
+perm_count:  765
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Baca']
+perm_count:  766
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Lukas']
+perm_count:  767
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Lukas']
+perm_count:  768
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Chovanec']
+perm_count:  769
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Chovanec']
+perm_count:  770
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic']
+perm_count:  771
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Baca']
+perm_count:  772
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Lukas']
+perm_count:  773
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Lukas']
+perm_count:  774
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Chovanec']
+perm_count:  775
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Manakova', 'Simkanic', 'Chovanec']
+perm_count:  776
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas']
+perm_count:  777
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  778
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Illík']
+perm_count:  779
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Landry']
+perm_count:  780
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  781
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  782
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  783
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  784
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Zarlik']
+perm_count:  785
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Illík']
+perm_count:  786
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Landry']
+perm_count:  787
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  788
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  789
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  790
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  791
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Zarlik']
+perm_count:  792
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Landry']
+perm_count:  793
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  794
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  795
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  796
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik']
+perm_count:  797
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Nemec']
+perm_count:  798
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Nemec']
+perm_count:  799
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Simkanic']
+perm_count:  800
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Simkanic']
+perm_count:  801
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík']
+perm_count:  802
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Nemec']
+perm_count:  803
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Nemec']
+perm_count:  804
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Simkanic']
+perm_count:  805
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Simkanic']
+perm_count:  806
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry']
+perm_count:  807
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Nemec']
+perm_count:  808
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Nemec']
+perm_count:  809
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Nemec']
+perm_count:  810
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Simkanic']
+perm_count:  811
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Simkanic']
+perm_count:  812
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova']
+perm_count:  813
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  814
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  815
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  816
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Simkanic']
+perm_count:  817
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Simkanic']
+perm_count:  818
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic']
+perm_count:  819
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Zarlik']
+perm_count:  820
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Illík']
+perm_count:  821
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Landry']
+perm_count:  822
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Manakova']
+perm_count:  823
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  824
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  825
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic']
+perm_count:  826
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Zarlik']
+perm_count:  827
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Illík']
+perm_count:  828
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Landry']
+perm_count:  829
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Manakova']
+perm_count:  830
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  831
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  832
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova']
+perm_count:  833
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  834
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  835
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  836
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  837
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  838
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova']
+perm_count:  839
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  840
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  841
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  842
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  843
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  844
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas']
+perm_count:  845
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  846
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Illík']
+perm_count:  847
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  848
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Trawinska']
+perm_count:  849
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Smutna']
+perm_count:  850
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  851
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  852
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  853
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  854
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Zarlik']
+perm_count:  855
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Illík']
+perm_count:  856
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  857
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Trawinska']
+perm_count:  858
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Smutna']
+perm_count:  859
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  860
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  861
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  862
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  863
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Zarlik']
+perm_count:  864
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  865
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Trawinska']
+perm_count:  866
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Smutna']
+perm_count:  867
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  868
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  869
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  870
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik']
+perm_count:  871
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Nemec']
+perm_count:  872
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Nemec']
+perm_count:  873
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Simkanic']
+perm_count:  874
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Simkanic']
+perm_count:  875
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík']
+perm_count:  876
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Nemec']
+perm_count:  877
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Nemec']
+perm_count:  878
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Simkanic']
+perm_count:  879
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Simkanic']
+perm_count:  880
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova']
+perm_count:  881
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  882
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  883
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  884
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Simkanic']
+perm_count:  885
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Simkanic']
+perm_count:  886
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska']
+perm_count:  887
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Nemec']
+perm_count:  888
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Nemec']
+perm_count:  889
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Nemec']
+perm_count:  890
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Simkanic']
+perm_count:  891
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Simkanic']
+perm_count:  892
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna']
+perm_count:  893
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Nemec']
+perm_count:  894
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Nemec']
+perm_count:  895
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Nemec']
+perm_count:  896
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Simkanic']
+perm_count:  897
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Simkanic']
+perm_count:  898
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova']
+perm_count:  899
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  900
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  901
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  902
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Simkanic']
+perm_count:  903
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Simkanic']
+perm_count:  904
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic']
+perm_count:  905
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Zarlik']
+perm_count:  906
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Illík']
+perm_count:  907
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Manakova']
+perm_count:  908
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Trawinska']
+perm_count:  909
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Smutna']
+perm_count:  910
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Manakova']
+perm_count:  911
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  912
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  913
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic']
+perm_count:  914
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Zarlik']
+perm_count:  915
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Illík']
+perm_count:  916
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Manakova']
+perm_count:  917
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Trawinska']
+perm_count:  918
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Smutna']
+perm_count:  919
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Manakova']
+perm_count:  920
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  921
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  922
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova']
+perm_count:  923
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  924
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  925
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  926
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  927
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  928
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova']
+perm_count:  929
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  930
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  931
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  932
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  933
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  934
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas']
+perm_count:  935
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  936
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Illík']
+perm_count:  937
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Landry']
+perm_count:  938
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  939
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Trawinska']
+perm_count:  940
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Smutna']
+perm_count:  941
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  942
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  943
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  944
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Zarlik']
+perm_count:  945
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Illík']
+perm_count:  946
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Landry']
+perm_count:  947
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  948
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Trawinska']
+perm_count:  949
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Smutna']
+perm_count:  950
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  951
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  952
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec']
+perm_count:  953
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Zarlik']
+perm_count:  954
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Landry']
+perm_count:  955
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Manakova']
+perm_count:  956
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Trawinska']
+perm_count:  957
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Smutna']
+perm_count:  958
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  959
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Nemec', 'Matyaskova']
+perm_count:  960
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik']
+perm_count:  961
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Nemec']
+perm_count:  962
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Nemec']
+perm_count:  963
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Simkanic']
+perm_count:  964
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Zarlik', 'Simkanic']
+perm_count:  965
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík']
+perm_count:  966
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Nemec']
+perm_count:  967
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Nemec']
+perm_count:  968
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Simkanic']
+perm_count:  969
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Illík', 'Simkanic']
+perm_count:  970
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry']
+perm_count:  971
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Nemec']
+perm_count:  972
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Nemec']
+perm_count:  973
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Nemec']
+perm_count:  974
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Simkanic']
+perm_count:  975
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Landry', 'Simkanic']
+perm_count:  976
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova']
+perm_count:  977
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  978
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  979
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Nemec']
+perm_count:  980
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Simkanic']
+perm_count:  981
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Manakova', 'Simkanic']
+perm_count:  982
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska']
+perm_count:  983
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Nemec']
+perm_count:  984
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Nemec']
+perm_count:  985
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Nemec']
+perm_count:  986
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Simkanic']
+perm_count:  987
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Trawinska', 'Simkanic']
+perm_count:  988
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna']
+perm_count:  989
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Nemec']
+perm_count:  990
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Nemec']
+perm_count:  991
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Nemec']
+perm_count:  992
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Simkanic']
+perm_count:  993
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Smutna', 'Simkanic']
+perm_count:  994
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic']
+perm_count:  995
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Zarlik']
+perm_count:  996
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Illík']
+perm_count:  997
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Landry']
+perm_count:  998
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Manakova']
+perm_count:  999
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Trawinska']
+perm_count:  1000
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Smutna']
+perm_count:  1001
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  1002
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  1003
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic']
+perm_count:  1004
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Zarlik']
+perm_count:  1005
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Illík']
+perm_count:  1006
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Landry']
+perm_count:  1007
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Manakova']
+perm_count:  1008
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Trawinska']
+perm_count:  1009
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Smutna']
+perm_count:  1010
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  1011
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Simkanic', 'Matyaskova']
+perm_count:  1012
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova']
+perm_count:  1013
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  1014
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  1015
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  1016
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  1017
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  1018
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova']
+perm_count:  1019
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  1020
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  1021
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Nemec']
+perm_count:  1022
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  1023
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Lukas', 'Matyaskova', 'Simkanic']
+perm_count:  1024
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec']
+perm_count:  1025
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec']
+perm_count:  1026
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Illík']
+perm_count:  1027
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Landry']
+perm_count:  1028
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1029
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1030
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1031
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec']
+perm_count:  1032
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Zarlik']
+perm_count:  1033
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Illík']
+perm_count:  1034
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Landry']
+perm_count:  1035
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1036
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1037
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1038
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec']
+perm_count:  1039
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Zarlik']
+perm_count:  1040
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Landry']
+perm_count:  1041
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1042
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1043
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1044
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik']
+perm_count:  1045
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik', 'Nemec']
+perm_count:  1046
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik', 'Nemec']
+perm_count:  1047
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik', 'Simkanic']
+perm_count:  1048
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik', 'Simkanic']
+perm_count:  1049
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík']
+perm_count:  1050
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík', 'Nemec']
+perm_count:  1051
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík', 'Nemec']
+perm_count:  1052
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík', 'Simkanic']
+perm_count:  1053
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík', 'Simkanic']
+perm_count:  1054
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Landry']
+perm_count:  1055
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Landry', 'Nemec']
+perm_count:  1056
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Landry', 'Nemec']
+perm_count:  1057
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Landry', 'Nemec']
+perm_count:  1058
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Landry', 'Simkanic']
+perm_count:  1059
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Landry', 'Simkanic']
+perm_count:  1060
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova']
+perm_count:  1061
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1062
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1063
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1064
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Simkanic']
+perm_count:  1065
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Simkanic']
+perm_count:  1066
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic']
+perm_count:  1067
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Zarlik']
+perm_count:  1068
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Illík']
+perm_count:  1069
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Landry']
+perm_count:  1070
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Manakova']
+perm_count:  1071
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Matyaskova']
+perm_count:  1072
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Matyaskova']
+perm_count:  1073
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic']
+perm_count:  1074
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Zarlik']
+perm_count:  1075
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Illík']
+perm_count:  1076
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Landry']
+perm_count:  1077
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Manakova']
+perm_count:  1078
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Matyaskova']
+perm_count:  1079
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Matyaskova']
+perm_count:  1080
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova']
+perm_count:  1081
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1082
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1083
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1084
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Simkanic']
+perm_count:  1085
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Simkanic']
+perm_count:  1086
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova']
+perm_count:  1087
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1088
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1089
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1090
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Simkanic']
+perm_count:  1091
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Simkanic']
+perm_count:  1092
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec']
+perm_count:  1093
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec']
+perm_count:  1094
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Illík']
+perm_count:  1095
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1096
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Trawinska']
+perm_count:  1097
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Smutna']
+perm_count:  1098
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1099
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1100
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1101
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec']
+perm_count:  1102
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Zarlik']
+perm_count:  1103
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Illík']
+perm_count:  1104
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1105
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Trawinska']
+perm_count:  1106
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Smutna']
+perm_count:  1107
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1108
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1109
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1110
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec']
+perm_count:  1111
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Zarlik']
+perm_count:  1112
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1113
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Trawinska']
+perm_count:  1114
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Smutna']
+perm_count:  1115
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Manakova']
+perm_count:  1116
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1117
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Nemec', 'Matyaskova']
+perm_count:  1118
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik']
+perm_count:  1119
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik', 'Nemec']
+perm_count:  1120
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik', 'Nemec']
+perm_count:  1121
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik', 'Simkanic']
+perm_count:  1122
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Zarlik', 'Simkanic']
+perm_count:  1123
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík']
+perm_count:  1124
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík', 'Nemec']
+perm_count:  1125
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík', 'Nemec']
+perm_count:  1126
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík', 'Simkanic']
+perm_count:  1127
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Illík', 'Simkanic']
+perm_count:  1128
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova']
+perm_count:  1129
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1130
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1131
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1132
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Simkanic']
+perm_count:  1133
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Simkanic']
+perm_count:  1134
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Trawinska']
+perm_count:  1135
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Trawinska', 'Nemec']
+perm_count:  1136
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Trawinska', 'Nemec']
+perm_count:  1137
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Trawinska', 'Nemec']
+perm_count:  1138
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Trawinska', 'Simkanic']
+perm_count:  1139
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Trawinska', 'Simkanic']
+perm_count:  1140
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Smutna']
+perm_count:  1141
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Smutna', 'Nemec']
+perm_count:  1142
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Smutna', 'Nemec']
+perm_count:  1143
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Smutna', 'Nemec']
+perm_count:  1144
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Smutna', 'Simkanic']
+perm_count:  1145
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Smutna', 'Simkanic']
+perm_count:  1146
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova']
+perm_count:  1147
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1148
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1149
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Nemec']
+perm_count:  1150
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Simkanic']
+perm_count:  1151
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Manakova', 'Simkanic']
+perm_count:  1152
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic']
+perm_count:  1153
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Zarlik']
+perm_count:  1154
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Illík']
+perm_count:  1155
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Manakova']
+perm_count:  1156
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Trawinska']
+perm_count:  1157
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Smutna']
+perm_count:  1158
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Manakova']
+perm_count:  1159
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Matyaskova']
+perm_count:  1160
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Matyaskova']
+perm_count:  1161
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic']
+perm_count:  1162
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Zarlik']
+perm_count:  1163
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Illík']
+perm_count:  1164
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Manakova']
+perm_count:  1165
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Trawinska']
+perm_count:  1166
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Smutna']
+perm_count:  1167
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Manakova']
+perm_count:  1168
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Matyaskova']
+perm_count:  1169
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Simkanic', 'Matyaskova']
+perm_count:  1170
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova']
+perm_count:  1171
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1172
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1173
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1174
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Simkanic']
+perm_count:  1175
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Simkanic']
+perm_count:  1176
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova']
+perm_count:  1177
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1178
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1179
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Nemec']
+perm_count:  1180
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Simkanic']
+perm_count:  1181
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Chovanec', 'Matyaskova', 'Simkanic']
+perm_count:  1182
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic']
+perm_count:  1183
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca']
+perm_count:  1184
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Zarlik']
+perm_count:  1185
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Illík']
+perm_count:  1186
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Landry']
+perm_count:  1187
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Manakova']
+perm_count:  1188
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Trawinska']
+perm_count:  1189
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Smutna']
+perm_count:  1190
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Manakova']
+perm_count:  1191
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Matyaskova']
+perm_count:  1192
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Matyaskova']
+perm_count:  1193
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik']
+perm_count:  1194
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Baca']
+perm_count:  1195
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Lukas']
+perm_count:  1196
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Lukas']
+perm_count:  1197
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Lukas']
+perm_count:  1198
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Chovanec']
+perm_count:  1199
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Chovanec']
+perm_count:  1200
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík']
+perm_count:  1201
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Baca']
+perm_count:  1202
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Lukas']
+perm_count:  1203
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Lukas']
+perm_count:  1204
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Lukas']
+perm_count:  1205
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Chovanec']
+perm_count:  1206
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Chovanec']
+perm_count:  1207
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry']
+perm_count:  1208
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry', 'Baca']
+perm_count:  1209
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry', 'Lukas']
+perm_count:  1210
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry', 'Lukas']
+perm_count:  1211
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry', 'Chovanec']
+perm_count:  1212
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova']
+perm_count:  1213
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Baca']
+perm_count:  1214
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Lukas']
+perm_count:  1215
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Lukas']
+perm_count:  1216
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Chovanec']
+perm_count:  1217
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska']
+perm_count:  1218
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska', 'Baca']
+perm_count:  1219
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska', 'Lukas']
+perm_count:  1220
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska', 'Lukas']
+perm_count:  1221
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska', 'Chovanec']
+perm_count:  1222
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna']
+perm_count:  1223
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna', 'Baca']
+perm_count:  1224
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna', 'Lukas']
+perm_count:  1225
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna', 'Lukas']
+perm_count:  1226
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna', 'Chovanec']
+perm_count:  1227
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova']
+perm_count:  1228
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Baca']
+perm_count:  1229
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Lukas']
+perm_count:  1230
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Lukas']
+perm_count:  1231
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Chovanec']
+perm_count:  1232
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Chovanec']
+perm_count:  1233
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas']
+perm_count:  1234
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Zarlik']
+perm_count:  1235
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Illík']
+perm_count:  1236
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Landry']
+perm_count:  1237
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Manakova']
+perm_count:  1238
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1239
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1240
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas']
+perm_count:  1241
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Zarlik']
+perm_count:  1242
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Illík']
+perm_count:  1243
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Manakova']
+perm_count:  1244
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Trawinska']
+perm_count:  1245
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Smutna']
+perm_count:  1246
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Manakova']
+perm_count:  1247
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1248
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1249
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas']
+perm_count:  1250
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Zarlik']
+perm_count:  1251
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Illík']
+perm_count:  1252
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Landry']
+perm_count:  1253
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Manakova']
+perm_count:  1254
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Trawinska']
+perm_count:  1255
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Smutna']
+perm_count:  1256
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1257
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1258
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec']
+perm_count:  1259
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Zarlik']
+perm_count:  1260
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Illík']
+perm_count:  1261
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Landry']
+perm_count:  1262
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Manakova']
+perm_count:  1263
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Matyaskova']
+perm_count:  1264
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Matyaskova']
+perm_count:  1265
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec']
+perm_count:  1266
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Zarlik']
+perm_count:  1267
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Illík']
+perm_count:  1268
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Manakova']
+perm_count:  1269
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Trawinska']
+perm_count:  1270
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Smutna']
+perm_count:  1271
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Manakova']
+perm_count:  1272
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Matyaskova']
+perm_count:  1273
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Matyaskova']
+perm_count:  1274
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova']
+perm_count:  1275
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Baca']
+perm_count:  1276
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1277
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1278
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1279
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Chovanec']
+perm_count:  1280
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Chovanec']
+perm_count:  1281
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova']
+perm_count:  1282
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Baca']
+perm_count:  1283
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1284
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1285
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1286
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Chovanec']
+perm_count:  1287
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Chovanec']
+perm_count:  1288
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic']
+perm_count:  1289
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca']
+perm_count:  1290
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Zarlik']
+perm_count:  1291
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Illík']
+perm_count:  1292
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Landry']
+perm_count:  1293
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Manakova']
+perm_count:  1294
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Trawinska']
+perm_count:  1295
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Smutna']
+perm_count:  1296
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Manakova']
+perm_count:  1297
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Matyaskova']
+perm_count:  1298
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Baca', 'Matyaskova']
+perm_count:  1299
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik']
+perm_count:  1300
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Baca']
+perm_count:  1301
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Lukas']
+perm_count:  1302
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Lukas']
+perm_count:  1303
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Lukas']
+perm_count:  1304
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Chovanec']
+perm_count:  1305
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Zarlik', 'Chovanec']
+perm_count:  1306
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík']
+perm_count:  1307
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Baca']
+perm_count:  1308
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Lukas']
+perm_count:  1309
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Lukas']
+perm_count:  1310
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Lukas']
+perm_count:  1311
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Chovanec']
+perm_count:  1312
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Illík', 'Chovanec']
+perm_count:  1313
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry']
+perm_count:  1314
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry', 'Baca']
+perm_count:  1315
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry', 'Lukas']
+perm_count:  1316
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry', 'Lukas']
+perm_count:  1317
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Landry', 'Chovanec']
+perm_count:  1318
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova']
+perm_count:  1319
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Baca']
+perm_count:  1320
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Lukas']
+perm_count:  1321
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Lukas']
+perm_count:  1322
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Chovanec']
+perm_count:  1323
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska']
+perm_count:  1324
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska', 'Baca']
+perm_count:  1325
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska', 'Lukas']
+perm_count:  1326
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska', 'Lukas']
+perm_count:  1327
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Trawinska', 'Chovanec']
+perm_count:  1328
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna']
+perm_count:  1329
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna', 'Baca']
+perm_count:  1330
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna', 'Lukas']
+perm_count:  1331
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna', 'Lukas']
+perm_count:  1332
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Smutna', 'Chovanec']
+perm_count:  1333
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova']
+perm_count:  1334
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Baca']
+perm_count:  1335
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Lukas']
+perm_count:  1336
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Lukas']
+perm_count:  1337
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Chovanec']
+perm_count:  1338
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Manakova', 'Chovanec']
+perm_count:  1339
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas']
+perm_count:  1340
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Zarlik']
+perm_count:  1341
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Illík']
+perm_count:  1342
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Landry']
+perm_count:  1343
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Manakova']
+perm_count:  1344
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1345
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1346
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas']
+perm_count:  1347
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Zarlik']
+perm_count:  1348
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Illík']
+perm_count:  1349
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Manakova']
+perm_count:  1350
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Trawinska']
+perm_count:  1351
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Smutna']
+perm_count:  1352
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Manakova']
+perm_count:  1353
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1354
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1355
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas']
+perm_count:  1356
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Zarlik']
+perm_count:  1357
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Illík']
+perm_count:  1358
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Landry']
+perm_count:  1359
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Manakova']
+perm_count:  1360
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Trawinska']
+perm_count:  1361
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Smutna']
+perm_count:  1362
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1363
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Lukas', 'Matyaskova']
+perm_count:  1364
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec']
+perm_count:  1365
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Zarlik']
+perm_count:  1366
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Illík']
+perm_count:  1367
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Landry']
+perm_count:  1368
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Manakova']
+perm_count:  1369
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Matyaskova']
+perm_count:  1370
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Matyaskova']
+perm_count:  1371
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec']
+perm_count:  1372
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Zarlik']
+perm_count:  1373
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Illík']
+perm_count:  1374
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Manakova']
+perm_count:  1375
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Trawinska']
+perm_count:  1376
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Smutna']
+perm_count:  1377
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Manakova']
+perm_count:  1378
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Matyaskova']
+perm_count:  1379
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Chovanec', 'Matyaskova']
+perm_count:  1380
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova']
+perm_count:  1381
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Baca']
+perm_count:  1382
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1383
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1384
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1385
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Chovanec']
+perm_count:  1386
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Chovanec']
+perm_count:  1387
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova']
+perm_count:  1388
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Baca']
+perm_count:  1389
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1390
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1391
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Lukas']
+perm_count:  1392
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Chovanec']
+perm_count:  1393
+solution=['Merta', 'Kratky', 'Gaura', 'Merta', 'Fabian', 'Miklošíková', 'Simkanic', 'Matyaskova', 'Chovanec']
+perm_count:  1394
