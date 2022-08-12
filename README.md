@@ -58,6 +58,7 @@ Create one user, create one term and upload `2021-22_ls.json` file as items... s
 
 ### Run
 ```console
+cd scheduler_solver
 poetry run python manage.py makemigrations
 poetry run python manage.py migrate scheduler
 poetry run python manage.py runserver
