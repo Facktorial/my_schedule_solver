@@ -2,15 +2,15 @@
 ## Save paper, save your life
 Django application for finding most **maybe** (shitty solver \\_(:/)\_/) the best possible option of school schedule for next semester.
 
-![Solver results](https://github.com/Facktorial/schedule_solver/blob/main/images/generate_schedule.png)
+![Solver results](https://github.com/Facktorial/my_schedule_solver/blob/main/images/generate_schedule.png)
 
 Also CLI output:
 
-![CLI Solver results](https://github.com/Facktorial/schedule_solver/blob/main/images/cli_output.png)
+![CLI Solver results](https://github.com/Facktorial/my_schedule_solver/blob/main/images/cli_output.png)
 
 If you don't wanna provide JSON with subjects and values, u can modify something like default by form:
 
-![CLI Solver results](https://github.com/Facktorial/schedule_solver/blob/main/images/choosing_preferencies.png)
+![CLI Solver results](https://github.com/Facktorial/my_schedule_solver/blob/main/images/choosing_preferencies.png)
 
 #### Technologies:
  -[`Django 4.x.`](https://djangoproject.com/) web framework
